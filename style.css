@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+}
+
+.main-card {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono' , sans-serif;
+}
+
+.card {
+    background-color: #ff4000;
+    border-radius: 20px;
+    box-shadow: 20px 20px 20px grey;
+}
+
+.top-card {
+    padding: 0.75em;
+}
+
+.top-card > h1 {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.top-card > p {
+    margin: 0;
+    font-size: 1em;
+}
+
+.mediaCard {
+    background: url('WhatsApp\ Image\ 2023-08-14\ at\ 16.28.43.jpeg') center/cover;
+    width: 100%;
+    height: 500px;
+}
+
+.legenda {
+    margin: 0;
+    padding: 0.75em;
+    font-size: 1.15rem;
+}
+
+@media (max-width: 680px) {
+    .mediaCard {
+        width: 100%;
+        height: 320px;
+    }
+}
